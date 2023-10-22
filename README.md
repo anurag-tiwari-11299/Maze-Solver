@@ -12,3 +12,4 @@
 <ul><li>Java - used for traversal of grid with DFS</li>
 <li>GUI - use JavaSwing component i.e., JFrame</li></ul>
 
+![Screenshot 2023-10-21 195040](https://github.com/anurag-tiwari-11299/Maze-Solver/assets/104429682/43c52e81-c317-4e37-95d1-c839cd5bc936)
