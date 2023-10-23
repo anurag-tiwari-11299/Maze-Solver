@@ -17,6 +17,7 @@ public class DFS {
         
         // condition, maze[2][2]
         if(maze[i][j] == 0){
+            // marks visited 
             maze[i][j] = 5;
             
             // maze[2 + 0][2 + (-1)] = maze[2][1], left

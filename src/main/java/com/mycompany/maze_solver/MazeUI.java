@@ -72,6 +72,9 @@ public class MazeUI extends JFrame {
             }
         }
         
+        // i = i + 2
+        // bcz path stored in i j i j.....
+        // to fetch only i, we need i + 2, same as for j values
         for(int i=0;i<path.size();i+=2){
             int path_j = path.get(i);
             int path_i = path.get(i + 1);
@@ -79,6 +82,7 @@ public class MazeUI extends JFrame {
             System.out.println("i coordinates " + path_i);
             System.out.println("j coordinates " + path_j);
             
+            // marks the visited grid
             g.setColor(Color.green);
             g.fillRect(30 * path_j, 30 * path_i, 25, 25);
         }
